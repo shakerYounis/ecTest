@@ -12,4 +12,6 @@ class Dictionary extends Model
     {
         return $this->hasMany (Term::class);
     }
+
+
 }

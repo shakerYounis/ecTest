@@ -13,5 +13,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get ( '/' , 'DictionaryController@Index' );
+Route::get ( '/' , 'DictionaryController@Index' )->name ('index');
 
